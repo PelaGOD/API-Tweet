@@ -168,7 +168,7 @@ def show_all_users():
     Parametes:
         -
 
-    Return a json list whit all users in the app, with the following keys:
+    Return a json list with all users in the app, with the following keys:
         - user_id: UUID
         - email: Emailstr
         - first_name: str
@@ -294,7 +294,7 @@ def update_a_user(
     Parameters:
     - user_id: UUID
     - Request body parameter:
-        - **user: User** -> A user model with user_id, email, first name, last name, birth date and password
+        - **user: User** -> A user model with user_id, email, first name, last name, birthdate and password
 
     Returns a user model with user_id, email, first_name, last_name and birth_date
     """
@@ -335,7 +335,7 @@ def home():
     Parametes:
         -
 
-    Return a json list whit all tweets in the app, with the following keys:
+    Return a json list with all tweets in the app, with the following keys:
         - tweet_id: UUID
         - content: str
         - created_at: datetime
